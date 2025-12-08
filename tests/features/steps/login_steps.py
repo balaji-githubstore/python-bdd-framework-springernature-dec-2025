@@ -31,3 +31,9 @@ def step_impl(context):
 def step_impl(context, expected_value):
     actual_value = context.driver.find_element(By.XPATH, "//p[contains(normalize-space(),'Quick')]").text
     assert_that(expected_value).is_equal_to(actual_value)
+
+
+@then(u'user should not get access with error as "{expected_error}"')
+def step_impl(context,expected_error):
+    actual_value = context.driver.find_element(By.XPATH, "//p[contains(normalize-space(),'Invalid')]").text
+    assert_that(expected_error).contains(actual_value)

@@ -11,3 +11,10 @@ Feature: Login
     And user clicks on login
     Then user should get access to dashboard with header as "Quick Launch"
 
+
+  Scenario: InvalidLogin
+    Given user opens browser with OrangeHRM application
+    When user enter the username as "john"
+    And user enter the password as "john123"
+    And user clicks on login
+    Then user should not get access with error as "Invalid credentials"
