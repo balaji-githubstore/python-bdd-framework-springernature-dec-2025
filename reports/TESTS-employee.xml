@@ -1,0 +1,45 @@
+<testsuite name="employee.Employee" tests="2" errors="0" failures="0" skipped="2" time="0.0" timestamp="2025-12-08T13:27:17.843069" hostname="mayura"><testcase classname="employee.Employee" name="AddValidEmployee -- @1.1 " status="skipped" time="0"><skipped /><system-out>
+<![CDATA[
+@scenario.begin
+
+  @positive @validemployee
+  Scenario Outline: AddValidEmployee -- @1.1 
+    Given user opens browser with OrangeHRM application ... skipped in 0.000s
+    When user enter the username as "Admin" ... skipped in 0.000s
+    And user enter the password as "admin123" ... skipped in 0.000s
+    And user clicks on login ... skipped in 0.000s
+    And user clicks on PIM menu ... skipped in 0.000s
+    And user clicks on Add Employee ... skipped in 0.000s
+    And user fill the employee details form ... skipped in 0.000s
+      | firstName | middleName | lastName | employeeId |
+      | saul      | w          | goodman  | 4554       |
+    And user clicks on save employee ... skipped in 0.000s
+    Then user should get the profile name as "saul goodman" ... skipped in 0.000s
+    And user should get the firstname field as "saul" ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="employee.Employee" name="AddValidEmployee -- @1.2 " status="skipped" time="0"><skipped /><system-out>
+<![CDATA[
+@scenario.begin
+
+  @positive @validemployee
+  Scenario Outline: AddValidEmployee -- @1.2 
+    Given user opens browser with OrangeHRM application ... skipped in 0.000s
+    When user enter the username as "Admin" ... skipped in 0.000s
+    And user enter the password as "admin123" ... skipped in 0.000s
+    And user clicks on login ... skipped in 0.000s
+    And user clicks on PIM menu ... skipped in 0.000s
+    And user clicks on Add Employee ... skipped in 0.000s
+    And user fill the employee details form ... skipped in 0.000s
+      | firstName | middleName | lastName | employeeId |
+      | john      | w          | wick     | 4555       |
+    And user clicks on save employee ... skipped in 0.000s
+    Then user should get the profile name as "john wick" ... skipped in 0.000s
+    And user should get the firstname field as "john" ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>
