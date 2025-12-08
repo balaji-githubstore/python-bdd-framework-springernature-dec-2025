@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="214e8961-425d-4df8-a52b-fd35c96f2670" name="Changes" comment="Added one scenario with direct automation in steps">
+    <list default="true" id="214e8961-425d-4df8-a52b-fd35c96f2670" name="Changes" comment="Added invalid login scenario">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/behave.ini" beforeDir="false" afterPath="$PROJECT_DIR$/behave.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/tests/features/login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/features/steps/login_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/features/steps/login_steps.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,11 +72,20 @@
       <option name="project" value="LOCAL" />
       <updated>1765169112320</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added invalid login scenario">
+      <option name="closed" value="true" />
+      <created>1765170139151</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1765170139151</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added one scenario with direct automation in steps" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added one scenario with direct automation in steps" />
+    <MESSAGE value="Added invalid login scenario" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added invalid login scenario" />
   </component>
 </project>

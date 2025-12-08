@@ -18,3 +18,4 @@ Feature: Login
     And user enter the password as "john123"
     And user clicks on login
     Then user should not get access with error as "Invalid credentials"
+
