@@ -18,6 +18,7 @@ Feature: Employee
     And user clicks on save employee
     Then user should get the profile name as "<first_name> <last_name>"
     And user should get the firstname field as "<first_name>"
+#    And user should get the same form details in the personal detail page
     Examples:
       | username | password | first_name | middle_name | last_name | employee_id |
       | Admin    | admin123 | saul       | w           | goodman   | 4554        |

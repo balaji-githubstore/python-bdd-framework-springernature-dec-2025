@@ -7,12 +7,12 @@ Feature: Login
   Background:
     Given user opens browser with OrangeHRM application
 
-  @smoke  @positive
+  @smoke  @positive  @valid
   Scenario: ValidLogin
     When user enter the username as "Admin"
     And user enter the password as "admin123"
     And user clicks on login
-    Then user should get access to dashboard with header as "Quick Launch"
+    Then user should get access to dashboard with header as "Quick Launch77"
 
 
   @negative

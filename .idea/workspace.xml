@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="214e8961-425d-4df8-a52b-fd35c96f2670" name="Changes" comment="Added invalid login scenario">
-      <change afterPath="$PROJECT_DIR$/tests/features/employee.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/features/steps/employee_steps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/features/zemployee_copy.feature" afterDir="false" />
+    <list default="true" id="214e8961-425d-4df8-a52b-fd35c96f2670" name="Changes" comment="Added datatable and also scenario outline with datatable">
+      <change afterPath="$PROJECT_DIR$/tests/features/environment.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/behave.ini" beforeDir="false" afterPath="$PROJECT_DIR$/behave.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/features/employee.feature" beforeDir="false" afterPath="$PROJECT_DIR$/tests/features/employee.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/tests/features/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/features/steps/employee_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/features/steps/employee_steps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/features/steps/login_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/features/steps/login_steps.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +28,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "balaji-githubstore"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/balaji-githubstore/python-bdd-framework-springernature-dec-2025.git",
+    "accountId": "e2ba69c4-fd0d-4c74-8320-b8bc8e4d7719"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -97,12 +109,21 @@
       <option name="project" value="LOCAL" />
       <updated>1765170980338</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added datatable and also scenario outline with datatable">
+      <option name="closed" value="true" />
+      <created>1765179277715</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1765179277715</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added one scenario with direct automation in steps" />
     <MESSAGE value="Added invalid login scenario" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added invalid login scenario" />
+    <MESSAGE value="Added datatable and also scenario outline with datatable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added datatable and also scenario outline with datatable" />
   </component>
 </project>

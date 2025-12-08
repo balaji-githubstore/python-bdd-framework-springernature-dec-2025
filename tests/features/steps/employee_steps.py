@@ -2,8 +2,8 @@ import time
 import random
 from assertpy import assert_that
 from behave import *
+from selenium import webdriver
 from selenium.webdriver.common.by import By
-
 
 @when(u'user clicks on PIM menu')
 def step_impl(context):
@@ -17,6 +17,8 @@ def step_impl(context):
 
 @when(u'user fill the employee details form')
 def step_impl(context):
+    # storing the datatable of employee under employee_table variable name
+    context.employee_table=context.table
     context.driver.find_element(By.NAME, "firstName").send_keys(context.table.rows[0]["firstName"])
     context.driver.find_element(By.NAME, "middleName").send_keys(context.table.rows[0]["middleName"])
     context.driver.find_element(By.NAME, "lastName").send_keys(context.table.rows[0]["lastName"])
@@ -42,3 +44,11 @@ def step_impl(context, expected_profile_name):
 def step_impl(context, expected_first_name):
     actual_first_name = context.driver.find_element(By.XPATH, "//input[@name='firstName']").get_attribute("value")
     assert_that(expected_first_name).is_equal_to(actual_first_name)
+
+
+@then(u'user should get the same form details in the personal detail page')
+def step_impl(context):
+     dt= context.employee_table
+     print(dt.rows[0]["firstName"])
+     print(str(context.username))
+
