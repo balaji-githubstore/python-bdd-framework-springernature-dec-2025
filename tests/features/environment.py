@@ -7,6 +7,17 @@ from allure_commons.types import AttachmentType
 from selenium import webdriver
 from selenium.webdriver.chrome.webdriver import WebDriver
 
+from pages.dashboard_page import DashboardPage
+from pages.login_page import LoginPage
+
+
+def init_page_objects(context):
+    """
+    Initialize Page Objects
+    """
+    context.login_page = LoginPage(context.driver)
+    context.dashboard_page = DashboardPage(context.driver)
+
 
 def setup_logging(context):
     """
@@ -104,7 +115,9 @@ def before_scenario(context, scenario):
     context.driver: WebDriver = webdriver.Chrome()
     context.driver.maximize_window()
     context.driver.implicitly_wait(10)
-    context.driver.get("https://demo.openemr.io/b/openemr")
+    # context.driver.get("https://demo.openemr.io/b/openemr")
+    init_page_objects(context)
+
 
 def before_step(context, step):
     """

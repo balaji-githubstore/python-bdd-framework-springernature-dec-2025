@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="214e8961-425d-4df8-a52b-fd35c96f2670" name="Changes" comment="page object">
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" afterDir="false" />
+    <list default="true" id="214e8961-425d-4df8-a52b-fd35c96f2670" name="Changes" comment="allure config">
+      <change afterPath="$PROJECT_DIR$/base/webdriver_keywords.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/dashboard_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/main_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/behave.ini" beforeDir="false" afterPath="$PROJECT_DIR$/behave.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/features/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/features/environment.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/features/steps/login_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/features/steps/login_steps.py" afterDir="false" />
     </list>
@@ -27,6 +27,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -58,12 +63,14 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Balaji/Company/SpringerNature Nov 2025/BDDFramework/tests",
+    "last_opened_file_path": "D:/Balaji/Company/SpringerNature Nov 2025/BDDFramework/base",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Balaji\Company\SpringerNature Nov 2025\BDDFramework\base" />
+      <recent name="D:\Balaji\Company\SpringerNature Nov 2025\BDDFramework" />
       <recent name="D:\Balaji\Company\SpringerNature Nov 2025\BDDFramework\tests" />
       <recent name="D:\Balaji\Company\SpringerNature Nov 2025\BDDFramework\tests\features" />
     </key>
@@ -120,14 +127,31 @@
       <option name="project" value="LOCAL" />
       <updated>1765179277715</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="allure config">
+      <option name="closed" value="true" />
+      <created>1765258091673</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1765258091673</updated>
+    </task>
+    <task id="LOCAL-00006" summary="allure config">
+      <option name="closed" value="true" />
+      <created>1765258098588</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1765258098588</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added one scenario with direct automation in steps" />
     <MESSAGE value="Added invalid login scenario" />
     <MESSAGE value="Added datatable and also scenario outline with datatable" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added datatable and also scenario outline with datatable" />
+    <MESSAGE value="allure config" />
+    <option name="LAST_COMMIT_MESSAGE" value="allure config" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

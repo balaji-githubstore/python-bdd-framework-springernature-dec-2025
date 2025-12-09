@@ -12,8 +12,8 @@ def step_impl(context):
 @when(u'user enter the username as "{username}"')
 def step_impl(context, username):
     context.current_username = username
-    context.driver.find_element(By.NAME, "username").send_keys(username)
-
+    # context.driver.find_element(By.NAME, "username").send_keys(username)
+    context.login_page.enter_username(username)
 
 @when(u'user enter the password as "{password}"')
 def step_impl(context, password):
