@@ -17,7 +17,9 @@ def step_impl(context, username):
 
 @when(u'user enter the password as "{password}"')
 def step_impl(context, password):
+
     context.driver.find_element(By.NAME, "password").send_keys(password)
+    context.logger.info(f"Entered password: {password}")
 
 
 @when(u'user clicks on login')

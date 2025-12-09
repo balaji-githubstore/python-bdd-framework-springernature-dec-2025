@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="214e8961-425d-4df8-a52b-fd35c96f2670" name="Changes" comment="Added datatable and also scenario outline with datatable">
-      <change afterPath="$PROJECT_DIR$/tests/features/environment.py" afterDir="false" />
+    <list default="true" id="214e8961-425d-4df8-a52b-fd35c96f2670" name="Changes" comment="page object">
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/behave.ini" beforeDir="false" afterPath="$PROJECT_DIR$/behave.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/features/employee.feature" beforeDir="false" afterPath="$PROJECT_DIR$/tests/features/employee.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/tests/features/login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/features/steps/employee_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/features/steps/employee_steps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/features/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/features/environment.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/features/steps/login_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/features/steps/login_steps.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,18 +29,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "balaji-githubstore"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;balaji-githubstore&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/balaji-githubstore/python-bdd-framework-springernature-dec-2025.git",
-    "accountId": "e2ba69c4-fd0d-4c74-8320-b8bc8e4d7719"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/balaji-githubstore/python-bdd-framework-springernature-dec-2025.git&quot;,
+    &quot;accountId&quot;: &quot;e2ba69c4-fd0d-4c74-8320-b8bc8e4d7719&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -54,14 +55,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Balaji/Company/SpringerNature Nov 2025/BDDFramework/tests/features",
+    "last_opened_file_path": "D:/Balaji/Company/SpringerNature Nov 2025/BDDFramework/tests",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Balaji\Company\SpringerNature Nov 2025\BDDFramework\tests" />
       <recent name="D:\Balaji\Company\SpringerNature Nov 2025\BDDFramework\tests\features" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -125,5 +128,13 @@
     <MESSAGE value="Added invalid login scenario" />
     <MESSAGE value="Added datatable and also scenario outline with datatable" />
     <option name="LAST_COMMIT_MESSAGE" value="Added datatable and also scenario outline with datatable" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
