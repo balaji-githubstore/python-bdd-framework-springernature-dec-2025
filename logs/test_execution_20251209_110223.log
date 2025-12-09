@@ -1,0 +1,33 @@
+2025-12-09 11:02:23,443 - root - INFO - ================================================================================
+2025-12-09 11:02:23,444 - root - INFO - Test Execution Started
+2025-12-09 11:02:23,444 - root - INFO - ================================================================================
+2025-12-09 11:02:23,444 - root - INFO - Screenshots directory: screenshots
+2025-12-09 11:02:23,444 - root - INFO - Allure results directory: allure-results
+2025-12-09 11:02:23,459 - root - INFO - 
+================================================================================
+2025-12-09 11:02:23,459 - root - INFO - Feature: Login
+2025-12-09 11:02:23,460 - root - INFO - Location: tests/features/login.feature:2
+2025-12-09 11:02:23,460 - root - INFO - ================================================================================
+2025-12-09 11:02:23,460 - root - INFO - Description: In order to manage the employee records As a user I want to get access to dashboard
+2025-12-09 11:02:23,461 - root - INFO - 
+--------------------------------------------------------------------------------
+2025-12-09 11:02:23,461 - root - INFO - Scenario ValidLogin
+2025-12-09 11:02:23,461 - root - INFO - Tags: ['smoke', 'positive', 'valid']
+2025-12-09 11:02:23,462 - root - INFO - --------------------------------------------------------------------------------
+2025-12-09 11:02:23,462 - root - INFO - Initializing WebDriver...
+2025-12-09 11:02:23,462 - root - INFO - WebDriver initialized successfully
+2025-12-09 11:02:29,270 - root - INFO - Entered password: admin123
+2025-12-09 11:02:31,105 - root - ERROR -   Error: Expected <Quick Launch77> to be equal to <Quick Launch>, but was not.
+2025-12-09 11:02:31,952 - root - INFO - Scenario status: Status.failed
+2025-12-09 11:02:32,555 - root - INFO - Current URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+2025-12-09 11:02:35,040 - root - INFO - 
+================================================================================
+2025-12-09 11:02:35,041 - root - INFO - Feature 'Login' completed
+2025-12-09 11:02:35,041 - root - INFO - Status: STATUS.FAILED
+2025-12-09 11:02:35,042 - root - INFO - ================================================================================
+
+2025-12-09 11:02:35,048 - root - INFO -   • Screenshots: D:\Balaji\Company\SpringerNature Nov 2025\BDDFramework\screenshots/
+2025-12-09 11:02:35,048 - root - INFO -   • Allure Results: D:\Balaji\Company\SpringerNature Nov 2025\BDDFramework\allure-results/
+2025-12-09 11:02:35,048 - root - INFO - 
+================================================================================
+2025-12-09 11:02:35,049 - root - INFO - Test Execution Completed
